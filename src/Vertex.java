@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Vertex<V> {
+
     private final V data;
     private final Map<Vertex<V>, Double> adjacentVertices = new HashMap<>();
 
