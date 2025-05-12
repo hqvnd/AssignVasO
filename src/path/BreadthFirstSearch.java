@@ -1,7 +1,11 @@
+package path;
+
+import graph.UnweightedGraph;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BreadthFirstSearch<Vertex> extends Search<Vertex>{
+public class BreadthFirstSearch<Vertex> extends Search<Vertex> {
     public BreadthFirstSearch(UnweightedGraph<Vertex> graph, Vertex source) {
         super(source);
 

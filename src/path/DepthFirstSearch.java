@@ -1,3 +1,7 @@
+package path;
+
+import graph.UnweightedGraph;
+
 public class DepthFirstSearch<Vertex> extends Search<Vertex> {
     public DepthFirstSearch(UnweightedGraph<Vertex> graph, Vertex source) {
         super(source);
