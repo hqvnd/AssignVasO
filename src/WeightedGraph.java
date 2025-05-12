@@ -6,10 +6,6 @@ public class WeightedGraph<V> {
     private final boolean undirected;
     private final Map<V, Vertex<V>> vertices = new HashMap<>();
 
-    public WeightedGraph() {
-        this(true);
-    }
-
     public WeightedGraph(boolean undirected) {
         this.undirected = undirected;
     }
